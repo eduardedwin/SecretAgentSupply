@@ -71,3 +71,17 @@ body {
   font-weight: bold;
   padding-top: 0.25rem;
 }
+
+/* Navigation bar section */
+
+.nav-bar {
+  background-color: FireBrick;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+}
