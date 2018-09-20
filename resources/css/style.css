@@ -15,6 +15,10 @@ body {
   padding: 0;
 }
 
+p {
+  color: Black;
+}
+
 /* Header section */
 
 .company-logo {
@@ -84,4 +88,65 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 0;
+}
+
+/* Products section */
+
+.products {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  width: 30%;
+  border: 4px solid Black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product img {
+  height: 9rem;
+  width: 9rem;
+  padding: 2rem 0;
+}
+
+.product span {
+  background-color: Black;
+  padding: 0.5rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Info section */
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+
+.additional-info {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.additional-info span {
+  background-color: Black;
+  padding: 1rem 2rem;
+}
+
+/* Footer section */
+
+footer {
+  background-color: Black;
+  height: 12rem;
+  display: flex;
+  align-items: center;
+}
+
+footer span {
+  text-align: left;
 }
