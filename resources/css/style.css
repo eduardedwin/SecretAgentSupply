@@ -53,10 +53,6 @@ p {
   justify-content: center;
 }
 
-/* .banner.container {
-  margin-top: 9rem;
-} */
-
 .caption {
   background-color: Black;
   width: 20rem;
@@ -80,6 +76,7 @@ p {
 
 .nav-bar {
   background-color: FireBrick;
+  width: 100%;
 }
 
 ul {
@@ -88,6 +85,10 @@ ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 0;
+}
+
+.menu {
+  display: none;
 }
 
 /* Products section */
@@ -142,11 +143,44 @@ ul {
 
 footer {
   background-color: Black;
-  height: 12rem;
+  height: 5rem;
   display: flex;
   align-items: center;
 }
 
 footer span {
   text-align: left;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    width: 100%;
+  }
+
+  /* Navigation bar section */
+
+  .menu {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #nav-link {
+    display: none;
+  }
+
+  /* Products section */
+
+  .product {
+    width: 47%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  /* Info section */
+
+  .additional-info {
+    width: 35%;
+  }
 }
